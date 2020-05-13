@@ -1,0 +1,158 @@
+/* MY COLOR SCHEME
+#D6D1D5
+#A6D8DF
+#2F6FAD
+#271F2E
+#E2CB57 
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #E2CB57;
+}
+
+h2, h3, h4{
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+
+a {
+    color: #E2CB57;
+}
+
+a:hover {
+    color: #2F6FAD;
+}
+
+span {
+    color: #E2CB57;
+}
+
+img.rounded-circle {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* NAVBAR */
+
+/* .navbar {
+    text-transform: uppercase;
+} */
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* HERO */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: center no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #E2CB57;
+}
+
+/* CALL TO ACTION */
+
+.cta-bg {
+    background-color: #271F2E;
+    color: #fff;
+}
+
+.btn-cta {
+    background-color: #E2CB57;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-cta:hover {
+    background-color: #fff;
+    color: #2F6FAD;
+}
+
+/* SERVICES */
+
+.serv-icon {
+    background-color: #271F2E;
+}
+
+.serv-icon i {
+    font-size: 3rem;
+    color: #E2CB57;
+}
+
+/* TESTIMONIALS */
+
+.slider-item{
+    display: none;
+}
+
+.active-slider-item{
+    display: block;
+}
+
+/* TEAM */
+
+.team-social-links {
+    background-color: #271F2E;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.team-social-links a {
+    color: #fff;
+}
+
+.team-social-links a:hover{
+    color: #E2CB57;
+}
+
+.btn-team {
+    background-color: #E2CB57;
+    color: #271F2E;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-team:hover {
+    background-color: #271f2e;
+    color: #E2CB57;
+}
+
+/* FOOTER */
+
+.footer-bg {
+    background-color: #271F2E;
+    color: #fff; 
+}
+
+.footer-info {
+    margin-top: 1rem;
+}
